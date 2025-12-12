@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOTA SHALINI - Student Portfolio</title>
+    <style>
+        /* Basic Reset and Variables */
+        :root {
+            --primary-color: #007bff; /* A nice blue for accents */
+            --text-color: #333;
+            --bg-color: #f4f4f4;
+            --header-bg: #fff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* Header/Hero Section */
+        #hero {
+            background-color: var(--header-bg);
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        #hero h1 {
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        #hero p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 40px 0;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--primary-color);
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Content Styling */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skills-list li {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .education-item {
+            border-left: 3px solid #ccc;
+            padding-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        .education-item strong {
+            display: block;
+            font-size: 1.1em;
+            color: var(--primary-color);
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="hero">
+        <div class="container">
+            <img src="profile.html.jpg" alt="KOTA SHALINI Profile Photo" style="width:180px; height: 180px; object-fit: cover; border-radius:50%; border: 4px solid var(--primary-color); margin-bottom: 15px;">
+            
+            
+            <h1>KOTA SHALINI</h1>
+            <p>Electronics and Communication Engineering Student | Innovator in Hardware & Software</p>
+            <p>Warangal, Telangana</p>
+            </div>
+    </header>
+   
+
+    <main class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+                A driven Electronics and Communication Engineering student with a strong foundation in circuits designing and programming. 
+                I am passionate about utilizing both hardware and software technologies to build innovative solutions that create real-world impact.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Core Technical Skills</h2>
+            <ul class="skills-list">
+                <li>Analog analysis</li>
+                <li>Raspberry Pi/ESP32 integration</li>
+                <li>C Programming</li>
+                <li>Python</li>
+                <li>Sensor/Actuator I/O</li>
+                <li>Circuits Designing</li>
+                <li>Hardware/Software Integration</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <p><strong>B.Tech ECE (2024 - Present)</strong></p>
+                <p>SR University</p>
+            </div>
+            <div class="education-item">
+                <p><strong>+2 Intermediate (MPC)</strong></p>
+                <p>RESONANCE</p>
+            </div>
+            <div class="education-item">
+                <p><strong>Schooling</strong></p>
+                <p>KTS- Warangal</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p style="text-align: center;">
+                Email: <a href="mailto:shalinikota@gmail.com">shalinikota@gmail.com</a>
+                <br>
+                LinkedIn: <a href="https://www.linkedin.com/in/kota-shalini-98b691331/" target="_blank">linkedin.com/in/kota-shalini...</a>
+            </p>
+            </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Portfolio of KOTA SHALINI | Built with HTML & CSS</p>
+        </div>
+    </footer>
+</body>
+</html>
